@@ -25,7 +25,7 @@
           </el-form-item>
           <div class="checkbox">
             <el-checkbox v-model="loginFrom.rememberMe" id="rememberme" name="rememberme" style="margin-left: -15px;"></el-checkbox>
-            <label for="rememberme" style="font-size: 15px; color: black;margin-left: -50px;">记住我</label>
+            <label for="rememberme" style="font-size: 13px; color: black;margin-left: -50px;">记住我</label>
           </div>
 
           <el-button class="loginBtn" type='primary' @click.stop="submitForm" data-loading="正在验证登录，请稍后...">登录
