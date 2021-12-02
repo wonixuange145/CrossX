@@ -21,20 +21,27 @@
 </template>
 
 <script>
-    import CommonAside from '../components/CommonAside'
+    import CommonAside from '../components/CommonAside';
     import CommonHeader from "../components/CommonHeader";
+    import ResetPwd from '../components/system/user/profile/ResetPwd.vue';
+
 
     export default {
         components: {
             CommonAside,
             CommonHeader
-        }
+        },
+
     }
 </script>
 
 <style lang="scss" scoped>
     .el-header {
-        background-color: #333;
+        background-color: rgb(60, 141, 188);
+
+    }
+    header{
+      height: 50px;
     }
 
     .el-main {
